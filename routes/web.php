@@ -497,5 +497,5 @@ Route::prefix('adminuserrole')->group(function(){
 
 Route::post('/search', [IndexController::class, 'ProductSearch'])->name('product.search');
 
-// Advance Search Routes
+// Advance Search Routessssss
 Route::post('search-product', [IndexController::class, 'SearchProduct']);
